@@ -51,8 +51,8 @@ namespace Excercise2
         static void Ex03()
         {
             Console.WriteLine("Enter a: ");
-            Console.WriteLine("Enter b: ");
             int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter b: ");
             int b = int.Parse(Console.ReadLine());
             Console.WriteLine($"{a} + {b} = {a + b}");
             Console.WriteLine($"{a} - {b} = {a - b}");
@@ -139,3 +139,4 @@ namespace Excercise2
 
     }
     }
+
