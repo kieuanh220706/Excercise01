@@ -12,6 +12,7 @@ namespace Exercise03
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Chao mung ban den voi tro choi tai xiu");
             double money = 100;
             int wincount = 0;
             int losecount = 0;
@@ -112,3 +113,4 @@ namespace Exercise03
             
         }     
 }
+
