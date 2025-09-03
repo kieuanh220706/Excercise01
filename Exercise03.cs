@@ -195,17 +195,17 @@ namespace Exercise03
                 {
                     Console.WriteLine($"So van thang {wincount}, so van thua: {losecount}, so tien con lai la {money}");
                     Console.WriteLine("Hen gap lai ban lan sau!");
-                    return;
+                    continuePlaying = false;
                 }
                 else if (tl == "Co")
                 {
-                    Console.WriteLine("Moi ban tiep tuc choi"); break;
+                    Console.WriteLine("Moi ban tiep tuc choi"); 
                 }
                 else
                 {
                     Console.WriteLine("Lua chon khong hop le, moi ban chon lai");
                 }
-            } while (true) ;
+            } 
 
            
         }
@@ -214,6 +214,7 @@ namespace Exercise03
              
 
      }
+
 
 
 
